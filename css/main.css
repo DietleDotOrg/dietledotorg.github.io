@@ -259,7 +259,7 @@ blockquote.blockquote-1 {
 }
 
 a.link-text.navlink {
-  padding: 4px 40px;
+  padding: 40px 40px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -2266,6 +2266,7 @@ button.button-1:hover {
   }
 
 }
+
 
 
 
