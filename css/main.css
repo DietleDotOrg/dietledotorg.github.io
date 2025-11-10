@@ -36,7 +36,7 @@ h2.section-title {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
-  font-size: 96px;
+  font-size: 70px;
   font-family: 'Tenali Ramakrishna', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: .7;
 }
@@ -2302,6 +2302,7 @@ button.button-1:hover {
   }
 
 }
+
 
 
 
