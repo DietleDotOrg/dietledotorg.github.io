@@ -16,6 +16,7 @@ h3,
 h4,
 h5,
 h6,
+h7,
 pre,
 form,
 p,
@@ -349,3 +350,4 @@ label.radio > [type='radio'] {
 .container.sd-four-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+
