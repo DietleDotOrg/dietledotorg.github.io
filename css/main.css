@@ -73,6 +73,22 @@ h2.center-little-text {
   line-height: .7;
 }
 
+
+h3.section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 16px;
+  max-width: 800px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 45px;
+  font-family: 'Tenali Ramakrishna', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: .7;
+}
+
 h4.mini-title {
   margin-top: 24px;
   margin-bottom: 0;
@@ -2407,5 +2423,6 @@ button.button-1:hover {
     margin-bottom: 25px; 
   }
 }
+
 
 
