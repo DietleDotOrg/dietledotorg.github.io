@@ -2321,11 +2321,14 @@ button.button-1:hover {
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 80%;
-    
+    /* 1. Force the columns to stack vertically */
+    float: none;
+    /* 2. Make the columns take up the full available width */
+    width: 100%;
+    /* 3. Add a margin to separate the stacked columns visually */
+    margin-bottom: 25px; 
   }
 }
-
 
 
 
