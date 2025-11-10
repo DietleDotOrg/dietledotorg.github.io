@@ -1578,6 +1578,29 @@ label.label.form-label {
           align-items: center;
 }
 
+.container.cover-section-columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  padding: 48px 24px;
+  min-height: 40vh;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+}
+
 .container.image-learning {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2491,6 +2514,7 @@ button.button-1:hover {
         margin-bottom: 20px !important; /* Add vertical space when stacked */
     }
 }
+
 
 
 
