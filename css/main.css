@@ -2307,6 +2307,7 @@ button.button-1:hover {
 .column {
   float: left;
   width: 33.33%;
+  max-width: 800px;
 }
 
 /* Clear floats after the columns */
@@ -2319,9 +2320,11 @@ button.button-1:hover {
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 80%;
+    
   }
 }
+
 
 
 
