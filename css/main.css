@@ -2093,6 +2093,10 @@ button.button-1:hover {
     text-align: center;
   }
 
+    h8.contact-minititle {
+    text-align: center;
+  }
+
   p.paragraph.contact-body-text {
     text-align: center;
   }
@@ -2189,6 +2193,10 @@ button.button-1:hover {
   }
 
     h7.contact-minititle {
+    text-align: center;
+  }
+
+    h8.contact-minititle {
     text-align: center;
   }
 
@@ -2547,4 +2555,5 @@ button.button-1:hover {
         margin-bottom: 20px !important; /* Add vertical space when stacked */
     }
 }
+
 
