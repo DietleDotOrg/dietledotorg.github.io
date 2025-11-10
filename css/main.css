@@ -191,6 +191,58 @@ h7.tagline.white {
   line-height: 1;
 }
 
+h7.mini-title-section {
+  margin-top: 0;
+  margin-bottom: 48px;
+  padding-bottom: 0;
+  color: #909090;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: 'Tenali Ramakrishna', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+
+h7#tagline-hero-section {
+  margin-bottom: 0;
+}
+
+h7.student-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fafaf3;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 48px;
+  font-family: 'Tenali Ramakrishna', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h7.contact-minititle {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #070707;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: 'Tenali Ramakrishna', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h7.form-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #070707;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: 'Tenali Ramakrishna', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
 p.paragraph#paragraph-3 {
   text-align: left;
 }
@@ -1939,6 +1991,10 @@ button.button-1:hover {
     text-align: center;
   }
 
+    h7.contact-minititle {
+    text-align: center;
+  }
+
   p.paragraph.contact-body-text {
     text-align: center;
   }
@@ -2031,6 +2087,10 @@ button.button-1:hover {
   }
 
   h6.contact-minititle {
+    text-align: center;
+  }
+
+    h7.contact-minititle {
     text-align: center;
   }
 
@@ -2347,4 +2407,5 @@ button.button-1:hover {
     margin-bottom: 25px; 
   }
 }
+
 
