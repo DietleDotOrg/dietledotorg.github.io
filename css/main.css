@@ -2398,32 +2398,51 @@ button.button-1:hover {
 }
 
 
+
+
+
+
+
+
+
+/* Styling for Column Centering and Spacing */
+
+/* Centering the row (via the new wrapper) and controlling its max-width */
+.column-wrapper {
+  display: flex;
+  justify-content: center; /* Center the row horizontally */
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px; /* Adjust this value to control the maximum width of the columns group */
+}
+
+/* Set up the row for flexible spacing */
+.row {
+  display: flex; /* Enable flexbox for the columns */
+  justify-content: space-between; /* Pushes the columns to the sides, creating space between them */
+  /* Remove width: 100% or similar if it exists and causes layout issues */
+}
+
+/* Define column width and spacing (margins create the 'farther apart' effect) */
 .column {
-  float: left;
-  width: 28%;
-  max-width: 800px;
-  column-gap: 25px;
+  /* Set a fixed percentage width for each column (e.g., 30%) */
+  flex: 0 0 30%; /* flex-grow: 0, flex-shrink: 0, flex-basis: 30% */
+  /* Add padding/margin for spacing */
+  padding: 0 10px; /* Add some horizontal padding inside the columns */
+  margin: 0 1.5%; /* This margin creates the space between the columns and from the wrapper edge */
+  text-align: center; /* Ensures content is centered within the column */
 }
 
-/* Clear floats after the columns */
-.row: after {
-  content: "";
-  display: table;
-  clear: both;
+/* You may need to add media queries for smaller screens if this layout breaks */
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column; /* Stacks columns vertically on smaller screens */
+    }
+    .column {
+        flex: 0 0 100%; /* Columns take up full width on small screens */
+        margin-bottom: 25px; /* Add vertical space when stacked */
+    }
 }
-
-
-@media screen and (max-width: 600px) {
-  .column {
-    /* 1. Force the columns to stack vertically */
-    float: none;
-    /* 2. Make the columns take up the full available width */
-    width: 100%;
-    /* 3. Add a margin to separate the stacked columns visually */
-    margin-bottom: 25px; 
-  }
-}
-
 
 
 
