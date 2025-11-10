@@ -267,8 +267,8 @@ h4.column-titles {
   margin-bottom: 12px;
   text-align: center;
   color: #000000;
-  text-transform: none;
-  letter-spacing: 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   line-height: 26px;
   font-weight: 400;
   font-size: 25px;
@@ -2491,6 +2491,7 @@ button.button-1:hover {
         margin-bottom: 20px !important; /* Add vertical space when stacked */
     }
 }
+
 
 
 
