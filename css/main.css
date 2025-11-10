@@ -2306,13 +2306,13 @@ button.button-1:hover {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 28%;
   max-width: 800px;
   column-gap: 25px;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row: after {
   content: "";
   display: table;
   clear: both;
@@ -2329,29 +2329,3 @@ button.button-1:hover {
     margin-bottom: 25px; 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
