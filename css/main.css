@@ -2476,7 +2476,7 @@ button.button-1:hover {
   justify-content: space-between; /* Distributes space between columns */
   
   /* Use gap for consistent spacing between columns */
-  gap: 20px; /* Adjust this value to make columns 'farther apart' (e.g., 10px, 30px, etc.) */
+  gap: 40px; /* Adjust this value to make columns 'farther apart' (e.g., 10px, 30px, etc.) */
   
   /* Remove potential negative margins/padding from the theme */
   margin: 0 !important;
@@ -2514,6 +2514,7 @@ button.button-1:hover {
         margin-bottom: 20px !important; /* Add vertical space when stacked */
     }
 }
+
 
 
 
