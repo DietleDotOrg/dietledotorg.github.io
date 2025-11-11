@@ -2543,6 +2543,29 @@ button.button-1:hover {
 
 
 
+/* --- Centering Fix for Cover Columns --- */
+
+/* 1. Add 'justify-content: center' to the row */
+.cover-section-columns .row {
+    /* Existing Flexbox properties are inherited/maintained */
+    justify-content: center; /* This centers the flex items (the columns) horizontally */
+}
+
+/* 2. Update the column sizing to prevent filling the whole row */
+.cover-section-columns .column {
+    flex-grow: 0; /* Important: Prevents the columns from stretching to fill the whole width */
+    flex-basis: 300px; /* Optional: Gives the columns a fixed minimum width, adjust as needed */
+    max-width: 300px; /* Optional: Ensures columns don't get too wide on a huge screen */
+}
+
+/* You may need to add media queries to adjust the width for small screens: */
+@media (max-width: 900px) { /* Example breakpoint */
+    .cover-section-columns .column {
+        flex-basis: 100%; /* Make them stack vertically on small screens */
+        max-width: 100%;
+        text-align: center; /* Center the content inside the column on mobile */
+    }
+}
 
 
 
