@@ -955,7 +955,7 @@ label.label.form-label {
   display:         flex;
   -ms-flex-pack: center;
   -ms-flex-align: center;
-  padding: 96px 24px;
+  padding: 24px 24px;
   background-color: #000000;
 
   -webkit-box-align: center;
@@ -2539,6 +2539,7 @@ button.button-1:hover {
         margin-bottom: 20px !important; /* Add vertical space when stacked */
     }
 }
+
 
 
 
